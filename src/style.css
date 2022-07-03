@@ -1,0 +1,34 @@
+h1,
+h2,
+h3,
+h5 {
+  font-family: "Tiro Devanagari Marathi", serif;
+}
+h2,
+h5 {
+  color: rgb(20, 20, 117);
+}
+p {
+  font-size: 14pt;
+  text-align: center;
+}
+.day,
+.time,
+.temperature {
+  font-size: 17pt;
+  color: rgb(45, 45, 155);
+  font-weight: bold;
+  text-align: left;
+}
+.clearness {
+  font-size: 14pt;
+  text-align: left;
+}
+.period {
+  font-size: 14pt;
+  font-weight: 300;
+}
+.card-title,
+.text-muted {
+  text-align: center;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi&display=swap" rel="stylesheet">  </head>
+
+<style  src = "src/style.css"> </style>
+<body>
+    <div class="container">
+
+   <span class="logo">Rain☀rShine
+    </span>
+    
+    <form id="search-city">
+  <div class="form-group row" >
+       <div class="col-sm-3">
+      <input type="city" class="form-control" id="inputcity" placeholder="City">
+    </div>
+        <div class="form-group row">
+    <div class="col-sm-10">
+      <button type="Seacrh" class="btn btn-primary">Search</button>
+    </div>
+  </div>
+</form>
+        </div>
+    
+    <h2>London</h2>
+    <span class="day" id="current-day"> Monday</span>
+    <span class="time" id="current-time"> 20:11</span>
+       <div class="clearness"> Mostly clear</div>
+        <span class="temperature" id="temperature">20</span>
+        <span class="units">
+            <a href="#" id="celcius">°C</a> |
+            <a href="#" id="farenheit">°F</a>
+            
+            
+         </span>
+        <div class="container">
+  <div class="row">
+    <div class="col-sm-10">
+      H <strong>22°C</strong>  
+    </div>
+    <div class="col-sm-10">
+      L <strong>10°C</strong> 
+    </div>
+      </div>
+      <br/>
+      <span class="period">
+          Weelky forecast
+      </span>
+    
+      <div class="card-deck">
+  <div class="card">
+    <img src="images/icons8-partly-cloudy-day-100.png" class="card-img-top" alt="sun and cloud">
+    <div class="card-body">
+      <h5 class="card-title">Mon</h5>
+      <p class="card-text">20°C</p>
+      <p class="card-text"><small class="text-muted">30%</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/icons8-sun-100.png" class="card-img-top" alt="sun">
+    <div class="card-body">
+      <h5 class="card-title">Tue</h5>
+      <p class="card-text">18°C</p>
+      <p class="card-text"><small class="text-muted">0%</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/icons8-partly-cloudy-day-100.png" class="card-img-top" alt="sun and cloud">
+    <div class="card-body">
+      <h5 class="card-title">Wed</h5>
+      <p class="card-text">22°C</p>
+      <p class="card-text"><small class="text-muted">10%</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/icons8-rain-100.png" class="card-img-top" alt="rain">
+    <div class="card-body">
+      <h5 class="card-title">Thu</h5>
+      <p class="card-text">16°C</p>
+      <p class="card-text"><small class="text-muted">0%</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/icons8-storm-100.png" class="card-img-top" alt="rstorm">
+    <div class="card-body">
+      <h5 class="card-title">Fri</h5>
+      <p class="card-text">18°C</p>
+      <p class="card-text"><small class="text-muted">90%</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/icons8-sun-100.png" class="card-img-top" alt="sun">
+    <div class="card-body">
+      <h5 class="card-title">Sat</h5>
+      <p class="card-text">19°C</p>
+      <p class="card-text"><small class="text-muted">80%</small></p>
+    </div>
+  </div>
+
+</div>
+</div>
+</body>
+<script  src = "src/index.js"> </script>
+</html>
