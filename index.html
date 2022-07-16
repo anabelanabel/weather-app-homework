@@ -32,26 +32,27 @@
 </form>
         </div>
     
-    <h2>London</h2>
+    <h2 id="city">London</h2>
     <span class="day" id="current-day"> Monday</span>
     <span class="time" id="current-time"> 20:11</span>
-       <div class="clearness"> Mostly clear</div>
-        <span class="temperature" id="temperature">20</span>
+    <div class="clearfix weather-temperature">
+      
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="rain" id="icon" />
+                                                  <span class="weatherDescription" id="description"> Rain</span></div>
+                                                  
+               <span class="temperature" id="temperature">20</span>
         <span class="units">
             <a href="#" id="celcius">°C</a> |
             <a href="#" id="farenheit">°F</a>
             
             
          </span>
-        <div class="container">
-  <div class="row">
-    <div class="col-sm-10">
-      H <strong>22°C</strong>  
-    </div>
-    <div class="col-sm-10">
-      L <strong>10°C</strong> 
-    </div>
-      </div>
+        <div class="col-6">
+              <ul>
+                <li>Humidity: <span class="humidity" id="humidity" >20</span> %</li>
+                <li>Wind: <span class="wind" id="wind">30</span> m/h</li>
+              </ul>
+            </div>
       <br/>
       <span class="period">
           Weelky forecast
