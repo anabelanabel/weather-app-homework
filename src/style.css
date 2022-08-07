@@ -6,7 +6,7 @@ h5 {
 }
 h2,
 h5 {
-  color: rgb(20, 20, 117);
+  color: rgb(177, 68, 68);
 }
 p {
   font-size: 14pt;
@@ -37,4 +37,10 @@ li {
 .card-title,
 .text-muted {
   text-align: center;
+}
+.card {
+  border-radius: 30px;
+  border: 2px solid;
+  width: 250px;
+  height: 300px;
 }
