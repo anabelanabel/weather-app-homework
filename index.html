@@ -12,7 +12,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi&display=swap" rel="stylesheet">  </head>
 
-<style  src = "src/style.css"> </style>
+ <link rel="stylesheet" href="src/style.css" />
+    <title>Weather App</title>
+  </head>
 <body>
     <div class="container">
 
@@ -42,8 +44,8 @@
                                                   
                <span class="temperature" id="temperature">20</span>
         <span class="units">
-            <a href="#" id="celsius" class="active">°C </a> |
-            <a href="#" id="farenheit">°F</a>
+            <a  id="celsius" class="active">°C </a> 
+           
             
             
          </span>
@@ -58,59 +60,15 @@
           Weelky forecast
       </span>
     
-      <div class="card-deck">
-  <div class="card">
-    <img src="images/icons8-partly-cloudy-day-100.png" class="card-img-top" alt="sun and cloud">
-    <div class="card-body">
-      <h5 class="card-title">Mon</h5>
-      <p class="card-text">20°C</p>
-      <p class="card-text"><small class="text-muted">30%</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="images/icons8-sun-100.png" class="card-img-top" alt="sun">
-    <div class="card-body">
-      <h5 class="card-title">Tue</h5>
-      <p class="card-text">18°C</p>
-      <p class="card-text"><small class="text-muted">0%</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="images/icons8-partly-cloudy-day-100.png" class="card-img-top" alt="sun and cloud">
-    <div class="card-body">
-      <h5 class="card-title">Wed</h5>
-      <p class="card-text">22°C</p>
-      <p class="card-text"><small class="text-muted">10%</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="images/icons8-rain-100.png" class="card-img-top" alt="rain">
-    <div class="card-body">
-      <h5 class="card-title">Thu</h5>
-      <p class="card-text">16°C</p>
-      <p class="card-text"><small class="text-muted">0%</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="images/icons8-storm-100.png" class="card-img-top" alt="rstorm">
-    <div class="card-body">
-      <h5 class="card-title">Fri</h5>
-      <p class="card-text">18°C</p>
-      <p class="card-text"><small class="text-muted">90%</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="images/icons8-sun-100.png" class="card-img-top" alt="sun">
-    <div class="card-body">
-      <h5 class="card-title">Sat</h5>
-      <p class="card-text">19°C</p>
-      <p class="card-text"><small class="text-muted">80%</small></p>
-    </div>
-  </div>
+      <div class="card-deck" id="forecast"></div>
+  <a
+            href="https://github.com/anabelanabel/weather-app-homework"
+            target="_blank"
+            >Open-source code</a
+          >
+          by Anastasiia
+        </small>
 
-</div>
-</div>
-<a href="https://github.com/anabelanabel/weather-app-homework">Open-source code by</a> <p>Anastasiia</p>
-</body>
+      </body>
 <script  src = "src/index.js"> </script>
 </html>
